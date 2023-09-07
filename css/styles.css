@@ -1,0 +1,161 @@
+.grad-green {
+    height: 980px;
+    width: 100% !important;
+    margin-top: -100px;
+    background-color: white;
+    background-image: linear-gradient(hsl(87, 45%, 72%), white);
+
+}
+
+html {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.black {
+    background-color: hsl(86, 20%, 49%);
+    height: 350px;
+    width: 350px;
+    opacity: 50%;
+    margin-top: 40px;
+    border-radius: 287px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.div-welcome {
+    height: fit-content;
+    width: 80% !important;
+    background-color: white;
+    margin-top: 100px;
+    ;
+    border-radius: 0px 300px 300px 0px;
+    margin-left: -150px !important;
+    background-image: linear-gradient(hsl(65, 45%, 90%), white)
+}
+
+.text-welcome {
+    margin-left: 200px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+    color: hsl(86, 20%, 49%);
+    font-size: 64px;
+}
+
+.img-home {
+    width: 300px;
+    margin-left: -65px;
+
+}
+
+.img-line1 {
+    margin-left: 319px;
+    margin-top: 60px;
+}
+
+.img-line2 {
+    margin-left: 92px;
+    margin-top: -239px;
+    width: 500px;
+}
+
+.text-welcome-content {
+    margin-left: 250px !important;
+    font-size: 24px;
+}
+
+.header-text {
+    font-weight: bolder;
+    font-size: 24px !important;
+    color: hsl(86, 60%, 24%) !important;
+}
+
+.menu {
+    background-color: white !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu li {
+    margin-right: 100px;
+}
+
+.space {
+    margin-left: 100px !important;
+}
+
+.font-text {
+    font-family: "Quicksand", sans-serif;
+}
+
+.font-over {
+
+    font-family: 'gazpachoheavy', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+
+
+}
+
+.ball-menu {
+    background-color: hsl(86, 20%, 49%);
+    height: 50px;
+    width: 50px;
+    opacity: 50%;
+    border-radius: 287px;
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hearder-margin {
+    margin-left: -100px;
+    margin-top: 20px;
+}
+
+.hearder-links {
+    margin-right: -100px;
+    margin-top: 20px;
+}
+
+.header-img {
+    margin-left: -50px;
+}
+
+.ball-direita {
+    background: hsl(86, 20%, 69%);
+    width: 65px !important;
+    height: 50px;
+    border-radius: 0px 4px 300px 0px;
+    opacity: 38%;
+}
+
+.ball-esquerda {
+
+    background: hsl(86, 20%, 69%);
+    width: 65px !important;
+    height: 50px;
+    border-radius: 4px 0px 0px 300px;
+    opacity: 38%;
+}
+
+@font-face {
+    font-family: 'gazpachoheavy';
+    src: url('gazpacho-heavy-webfont.woff2') format('woff2'),
+         url('gazpacho-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
