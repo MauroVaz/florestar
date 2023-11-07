@@ -8,7 +8,6 @@
 }
 
 html {
-    position: fixed;
     width: 100%;
     height: 100%;
 }
@@ -22,9 +21,7 @@ html {
     border-radius: 287px;
 }
 
-body {
-    overflow-x: hidden;
-}
+
 
 .div-welcome {
     height: fit-content;
