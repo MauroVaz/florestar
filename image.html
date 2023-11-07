@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Institucional</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="">
+
+    <nav class="navbar navbar-default menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1 ball-direita">
+
+                </div>
+                <div class="col-md-1 col-sm-1">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand font-over header-text" href="#">FLORESTAR</a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-11">
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav font-text">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                            <li><a href="tutorial.html">Tutorial</a></li>
+                            <li class="active"><a href="image.html">Image</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-1 ball-esquerda float-right">
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container grad-green">
+        <div class="container div-image col-md-10">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="font-over text-image"> Galeria</h1>
+                    <div class="carousel">
+                        <div class="slide">
+                            <img src="slide/imagem1.jpeg" alt="Slide 1">
+                        </div>
+                        <div class="slide">
+                            <img src="slide/imagem2.jpeg" alt="Slide 2">
+                        </div>
+                        <div class="slide">
+                            <img src="slide/imagem3.jpeg" alt="Slide 3">
+                        </div>
+                        <div class="slide">
+                            <img src="slide/imagem4.jpeg" alt="Slide 4">
+                        </div>
+                        <div class="slide">
+                            <img src="slide/imagem5.jpeg" alt="Slide 5">
+                        </div>
+                        <div class="slide">
+                            <img src="slide/imagem6.jpeg" alt="Slide 6">
+                        </div>
+                        <div class="slide">
+                            <img src="slide/imagem7.jpeg" alt="Slide 7">
+                        </div>
+                        <div class="slide">
+                            <img src="slide/imagem8.jpeg" alt="Slide 8">
+                        </div>
+                        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                    </div>
+                
+                    <script>
+                        let slideIndex = 1;
+                        showSlide(slideIndex);
+                
+                        function moveSlide(n) {
+                            showSlide(slideIndex += n);
+                        }
+                
+                        function showSlide(n) {
+                            let slides = document.getElementsByClassName("slide");
+                            if (n > slides.length) {
+                                slideIndex = 1;
+                            }
+                            if (n < 1) {
+                                slideIndex = slides.length;
+                            }
+                            for (let i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";
+                            }
+                            slides[slideIndex - 1].style.display = "block";
+                        }
+                    </script>
+                     
+                </div>
+                <div class="col-md-2">
+                   
+                </div>
+
+            </div>
+           
+        </div>
+       
+
+
+    </div>
+
+</body>
+
+</html>
