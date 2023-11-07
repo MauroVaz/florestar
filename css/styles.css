@@ -196,6 +196,7 @@ font-style:normal;
     }
     .text-welcome, .text-welcome-content{
         margin-left: 0px !important;
+        font-size: ;
     }
 
     .div-image{
@@ -242,6 +243,22 @@ font-style:normal;
     border-radius: 0px 0px 0px 0px;
   
 
+    }
+    .div-welcome{
+        margin-left: 0px !important;
+        background-image: linear-gradient(hsl(65, 45%, 90%), white);
+        height: fit-content;
+   
+    
+    border-radius: 0px 0px 0px 0px;
+    }
+
+    .text-welcome, .text-image{
+        font-size: 44px;
+    }
+
+    .text-welcome-content{
+        font-size: 18px;
     }
 }
 
